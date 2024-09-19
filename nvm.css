@@ -1,0 +1,32 @@
+* {
+    background-color: #00f7ff;
+    text-align: center;
+}
+
+.container {
+    width: 50vw;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+}
+
+#A  {
+    list-style-type: none;
+    padding: 0;
+}
+
+#B  {
+    display: inline;
+    margin: 0 1rem;
+}
+#C  {
+    text-decoration: none;
+    color: #fff200;
+}
+.container:hover {
+    color: #ff00d0;
+}
+
